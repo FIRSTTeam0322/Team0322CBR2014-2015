@@ -1,0 +1,38 @@
+BALL_RESTRAINT
+ballRestraintMotor = PWM 7
+
+CHASSIS
+frontLeftMotor = PWM 0
+rearLeftMotor = PWM 1
+
+frontRightMotor = PWM 2
+rearRightMotor = PWM 3
+
+leftFrontBrake = Digital I/O 0
+leftRearBrake = Digital I/O 1
+rightFrontBrake = Digital I/O 2
+rightRearBrake = Digital I/O 3
+
+
+CHASSIS_SENSORS
+leftEncoder = Digital I/O 4,5
+rightEncoder = Digital I/O 6,7
+
+Gyroscope = Analog,0
+
+
+KICKER
+kickerRelease = PWM 4
+
+kickerLeftReel = PWM 5
+kickerRightReel = PWM 6
+
+kickerSensorLeft = Digital I/O 12
+kickerSensorRight = Digital I/O 13
+
+
+AUTONOMUS_MODE_SWITCHES
+switch1 = Digital I/O 8
+switch2 = Digital I/O 9
+switch3 = Digital I/O 10
+switch4 = Digital I/O 11
